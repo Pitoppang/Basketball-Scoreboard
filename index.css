@@ -1,0 +1,87 @@
+@font-face {
+    src: url(Fonts/Lakers.ttf);
+    font-family: lakers;
+}
+@font-face {
+    src: url("Fonts/digitaldisplaytfb.ttf");
+    font-family: dgdisplay;
+}
+@font-face {
+    src: url("Fonts/Roboto-Thin.ttf");
+    font-family: rbthin;
+}
+
+body {
+    background-color: #02080d;
+    color: #fad13b;
+    margin: 0;
+    text-align: center;
+    font-family: lakers;
+    font-weight: bold;       
+}
+
+h1 {
+    text-shadow: 4px 4px black;
+}
+
+.scoreboard {
+    display: flex;
+    justify-content: space-around;
+    padding: 70px 0;
+}
+
+h3 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 30px;
+    text-shadow: 4px 4px black;
+    line-height: 30px;
+    /* Será que esse "line-height" é recomendado pra esses casos?
+    "margin-bottom" não estava aproximando o tanto quanto eu queria. */
+}
+
+h2 {
+    width: 170px;
+    /* border: 6px solid #000000; */
+    border-radius: 5px;
+    box-shadow: 8px 8px 2px;
+    /* outline: thick double;
+    Isso é incrível: https://developer.mozilla.org/en-US/docs/Web/CSS/outline */
+    background-color: #2d146a;
+    color: #000500;
+    text-shadow: 5px 5px #ecda43;
+    font-family: dgdisplay;
+    font-size: 150px;
+    margin: 12px;
+}
+
+#header {
+    display: flex;
+    justify-content: space-around
+}
+
+#addPoint {
+    cursor: pointer;
+    display: flex;
+    line-height: 30px;
+    font-family: rbthin;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 5px 14px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: transparent;
+    color: gray;    
+}
+
+#newGame {
+    /* "display: block" me permite deixar o conteúdo centralizado sem mais, nem menos. */
+    margin-bottom: 10px;
+    cursor: pointer;
+    background-color: transparent;
+    color: gray;
+    font-family: rbthin;
+    font-weight: bold;
+    font-size: 25px;
+}
+

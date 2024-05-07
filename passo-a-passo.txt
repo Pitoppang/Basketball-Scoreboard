@@ -1,0 +1,45 @@
+Olá!
+
+O design não ficou lá essas coisas, deixei por último e já queria adiantar para o próximo conteúdo mas o TEMA DO APP DE BASQUETE é: LAKERS (uniforme alternativo, "statement edition", de 2022-23)!
+    "Why?", R = Porque um amigo da academia me fez começar a acompanhar basquete e, como referência,
+    usei o time dele, o Lakers, e imediatamente eu me apaixonei pelo esporte :) 
+    Pode não parecer mas o jogo é frenético, ainda mais no final. Also, L. James e a forma em que
+    ele esbanja personalidade na quadra é bizarro. Maluco corta de um garrafão a outro e mete uma
+    bandeja como se não fosse nada (oponentes inclusos).
+    
+    Obs.: Preciso ver depois como alterar tema em JS, se é igual a Flutter, com a possibilidade de usar operadores ternários etc.
+
+Bom, para começar a fazer o app, eu criei um esboço num papel do que eu precisaria para tê-lo, por exemplo, as configurações da página em sí, como utilizar o padrão das cores do Lakers, depois esbocei coisas como as características dos contêineres - como uma possível borda, cor de fundo, texto (e as configs desse texto) - etc, etc.
+
+Daí, comecei configurar essas poucas coisas em CSS, com auxílio das minhas anotações porque fazia tempo que não mexia com CSS e esqueci de algumas coisas.
+
+Daí, pulei pro JS e testei as funções que seriam pros botões "+1", "+2" e "+3" e usei o "console.log" para ver se as somas iriam funcionar e acrescentar umas as outras. BINGO! Tudo certo!
+
+Enquanto ouvia "U" por Kwon Jin Ah & RM, "Impurities" por LeSserafim e "Wanna Change Myself ft. Haruka" por Sega Sound Team, fiz os divs dos containeres que irei utilizar across the storyboard
+e parti pro CSS pra poder alinhar os itens. Tá ficando cada vez mais claro! Realmente, ESBOÇAR o projeto me livrou de quase qualquer bloqueio. Os "bloqueios" que estou tendo, é mais por esquecimento.
+
+Tamanho do texto e espessura... "A Night to Remember" de Badadoobee (acho que é assim que se escreve) é muito boa. A batida de Bossa Nova e a pegada meio 007 se encaixam igual à uma luva.
+
+Tive uma pequena dificuldade em alinhar os contêineres dos botões abaixo do placar e daí consultei meu projeto anterior, do site baseado no jogo Yakuza (meu favorito), e vi que eu precisaria criar mais um contêiner, o qual chamei de "header".
+
+Lembrei QUE NÃO PRECISA CRIAR CONTÊINER PARA BOTÃO, só de criar o elemento função em HTML já resolve boa parte do BO. Aonde eu tava com a cabeça?!
+
+Ao tentar centralizar o texto dentro do contêiner do score, percebi que não era possível alinhar o texto do contêiner, por assim dizer, então ao pesquisar, lembrei que dá pra usar as mesmas propriedades do contêiner no elemento texto em si (h3). Eu não preciso de "height" pra poder centralizar o texto, basta alinhar a "row" no meio, com width, e na altura será de acordo com o tamanho do texto.
+
+Depois só fiz concluir as funções, renomeá-las e importá-las para HTML e customizei os elementos, como através das fontes etc.
+
+Pra finalizar, fiz os "stretch goals".
+
+Quando eu fui fazer o "stretch" do "NewButton", eu não estava conseguindo por o novo botão embaixo de tudo e estava sem saber o porquê. Depois eu reparei que tinha errado nos divs dos demais elementos e até então eles estavam funcionando, até eu precisar de uma nova função e ai bagunçar tudo. Graças à Deus, foi bem fácil de resolver.
+
+De resto, foi só o design e acabou. Sendo sincero, adorei! KKKKKKKK
+
+Os "stretches" de "highlights" e "more counters" eu não consegui por não ter conhecimento o suficiente, ainda, logo, posso revisitar esse projeto e vou usar esses dois links abaixo como referência:
+
+1) https://github.com/zitsko/Basketball-Scoreboard-Scrimba-Solo-Project/commit/caabe796441c96606ad3a86821b1b0f82916ea81#diff-e727e4bdf3657fd1d798edcd6b099d6e092f8573cba266154583a746bba0f346
+
+2) https://codepen.io/praxeds/pen/XWEdjWM
+
+3) https://developer.mozilla.org/en-US/docs/Web/CSS/outline
+
+FIM! :)
